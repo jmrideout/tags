@@ -10,7 +10,7 @@ app = app_init(__name__)
 
 from tag import Tag # After app_init(), which sets db for the model
 
-cfg = load_config(join(app.root_path, '../shared/config.yml'))
+cfg = load_config(join(app.root_path, 'shared/config.yml'))
 
 @app.route('/', methods=['GET'])
 def show_tags():

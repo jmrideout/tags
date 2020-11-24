@@ -11,7 +11,7 @@ from flask_orator import Orator
 import yaml
 
 app = None
-db = None   # Module to share Orator DB variable
+db = None   # Module to share Orator DB variables
 
 FLASK_ENV = os.environ.get('FLASK_ENV') or 'development'
 
