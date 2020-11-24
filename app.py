@@ -15,7 +15,7 @@ cfg = load_config(join(app.root_path, 'shared/config.yml'))
 @app.route('/', methods=['GET'])
 def show_tags():
     g.setdefault('image', cfg['awesome_image']) # Flask.g: a way to pass var to a template
-    embed()
+    #embed()
     return render_template('index.html', tags=Tag.all())
 
 @app.route('/tags', methods=['POST'])
