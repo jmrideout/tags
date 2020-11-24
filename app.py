@@ -4,7 +4,7 @@ sys.path.insert(1, sys.path[0])
 from config import load_config, app_init
 from datetime import datetime
 from IPython import embed
-from flask import request, redirect
+from flask import request, redirect, g, render_template
 
 app = app_init(__name__)
 
