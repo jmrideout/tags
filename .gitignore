@@ -3,5 +3,5 @@ venv
 *.swp
 *.pyc
 *.sqlite3
-.vscode
 *.DS_Store
+.vscode
